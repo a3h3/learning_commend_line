@@ -43,7 +43,7 @@ header .container .links
 @media (min-width: 800px) {
     .icons
     {
-        display: none;
+        position: absolute;
     }
 }
 
@@ -54,6 +54,7 @@ header .container .links
     }
     .icons
     {
+        position: relative;
         display: flex;
         flex-direction: column;
         gap: 5px;
