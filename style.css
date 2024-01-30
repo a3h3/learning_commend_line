@@ -14,9 +14,28 @@ body
     font-family: sans-serif;
     height: 5000px;
 }
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
 header
 {
     position: fixed;
     width: 100%;
     background-color: black;
+}
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin: 0 40px;
+    align-items: center;
+}
+header .container .links
+{
+    display: flex;
+    gap: 30px;
 }
