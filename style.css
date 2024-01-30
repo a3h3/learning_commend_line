@@ -39,3 +39,30 @@ header .container .links
     display: flex;
     gap: 30px;
 }
+
+@media (min-width: 800px) {
+    .icons
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    header .container .links
+    {
+        display: none;
+    }
+    .icons
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+    .icons span 
+    {
+        width: 36px;
+        height: 3px;
+        background-color: #ffff;
+    }
+}
